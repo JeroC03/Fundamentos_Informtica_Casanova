@@ -1,0 +1,25 @@
+En Python, una lista es un tipo de dato que representa una colección ordenada y mutable de elementos. Algunas de las funciones de una lista son:
+
+append: agrega un elemento al final de la lista.
+
+insert: agrega un elemento en una posición específica de la lista.
+
+extend: agrega los elementos de otra lista al final de la lista.
+
+remove: elimina el primer elemento de la lista que coincida con el valor especificado.
+
+pop: elimina el elemento de la lista en la posición especificada o el último elemento si no se especifica ninguna posición.
+
+clear: elimina todos los elementos de la lista.
+
+index: devuelve la posición del primer elemento que coincida con el valor especificado.
+
+count: devuelve el número de veces que aparece el valor especificado en la lista.
+
+sort: ordena los elementos de la lista de forma ascendente.
+
+reverse: invierte el orden de los elementos de la lista.
+
+copy: crea una copia de la lista.
+
+sum()  : suma todos los elementos de la lista
