@@ -26,7 +26,7 @@ import re
 
 def caracteres_permitidos(string):
     return bool(re.search('[a-zA-Z0-9]', string))
-#print(caracteres_permitidos('expreci/.on#'))
+print(caracteres_permitidos('expreci/.on#'))
 
 #2) Escribí un programa que verifique si un string tiene todos sus caracteres permitidos. Estos caracteres son a-z, A-Z y 0-9.
 
@@ -114,3 +114,6 @@ strin = "Hoy estuvimos trabajando con re -regular expression- en python -con VSC
 def get_substr(string):
     return re.findall('[@|&](.*?)[@|&]', string)
 #print(get_substr('curn@ jirf@runr &rfvh ujeejn '))
+
+
+

@@ -12,16 +12,16 @@
 
 #2)Escribí un programa que lea un archivo e imprima las primeras n líneas.
 
-# def imprimir_primeras_n_lineas(filename, n):
-#     with open(filename, 'r') as archivo:
-#         for i in range(n):
-#             linea = archivo.readline()
-#             print(linea)
+def imprimir_primeras_n_lineas(filename, n):
+    with open(filename, 'r') as archivo:
+        for i in range(n):
+            linea = archivo.readline()
+            print(linea)
 
-# filename = input("Ingrese el nombre del archivo: ")
-# n = int(input("Ingrese la cantidad de líneas a imprimir: "))
+filename = input("Ingrese el nombre del archivo: ")
+n = int(input("Ingrese la cantidad de líneas a imprimir: "))
 
-# imprimir_primeras_n_lineas(filename, n)
+imprimir_primeras_n_lineas(filename, n)
 
 
 #3) Escribí un programa que lea un archivo, guarde las líneas del archivo en una lista y luego imprima las n últimas.
