@@ -1,4 +1,4 @@
-import requests, flask
+import requests
 
 # respuesta = requests.get('https://api.github.com/users/AJVelezRueda/orgs') #get = vervo http asociado a las consultas al servidor
 #                                                                             # los vervos http disparan acciones particulares
@@ -28,3 +28,11 @@ print(len(contenido['abilities']))
 #3)el contenido type es un json 
 #4) 200
 #5) tiene 2 habilidades
+
+
+
+# Estructura del proyecto
+# FLASK
+    #app.py --> tenemos los andpoints (rutas) de un API
+    #templates --> vamos a tener todas las pantallas de mi aplicaccion (archivos html)
+    #static --> vamos a tener todos los estilos de mi pantallas (archivos css)

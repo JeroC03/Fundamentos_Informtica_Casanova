@@ -74,4 +74,3 @@ def primeras_lineas(path_a_txt, path_resultado, salida):
 
 
 
-
