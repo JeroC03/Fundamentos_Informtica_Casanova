@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.get("/") # esto es la pagina principal
 def home():
-    return render_template('home.html')
+    return render_template("home.html")
 
 @app.get("/prendas")
 def get_all_prendas():
