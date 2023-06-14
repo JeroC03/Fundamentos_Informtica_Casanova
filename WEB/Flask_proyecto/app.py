@@ -14,8 +14,12 @@ def home():
 
 @app.get("/prendas")
 def get_all_prendas():
-    return f'<p>Mostrando todas las prendas</p>'
+    return render_template("prendas.html", prendas=prendas.items())
 
 @app.get("/prendas/<id>")
 def get_prenda(id):
-    return f"<p>Mostrando la prenda {escape(id)}</p>"
+    if id in prendas:
+        prenda = prendas[id]
+        return render_template("prenda.html", id=id, prenda=prenda)
+    else:
+        return ("no hay prenda", 404)
