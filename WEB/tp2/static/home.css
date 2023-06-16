@@ -1,0 +1,91 @@
+body {
+    background-color: #bdb2ff;
+}
+
+.circulos {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    height: 80px;
+    background-color: #aef496;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rojo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f27070;
+    border: 4px solid black;
+    margin-left: 20px;
+  }
+
+.amarillo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #eeec7c;
+    border: 4px solid black;
+    margin-left: 20px;
+  }
+
+.verde {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #71fd7b;
+    border: 4px solid black;
+    margin-left: 20px;
+  }
+
+.rectangulo-medio { 
+    width: 70%;
+    margin: auto;
+    height: 350px;
+    background-color: #aef496;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p {
+    font-size: 50px;
+    background-color: #aef496;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    font-family: 'Press Start 2P';
+}
+
+h1 {
+    font-size: 120px;
+    background-color: #aef496;
+    color: #bdb2ff;
+    font-family: 'Press Start 2P';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 50px;
+    background-color: #71fd7b;
+    margin-top: 10px;
+    font-family: 'Press Start 2P';
+    padding: 1%;
+}
+
+button:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.click {
+    position: absolute;
+    width: 130px;
+    height: 160px;
+    top: 68%;
+}
