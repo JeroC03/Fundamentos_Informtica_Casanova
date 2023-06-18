@@ -1,0 +1,13 @@
+body {
+    background-color: #96f7d2;
+}
+
+h1 {
+    color: #333;
+}
+
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}

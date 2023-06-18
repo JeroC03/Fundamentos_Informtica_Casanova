@@ -68,8 +68,8 @@ h1 {
     font-family: 'Press Start 2P';
     margin-top: 20px;
     margin-bottom: 20px;
+    -webkit-text-stroke: 2px black;
 }
-
 button {
     font-size: 50px;
     background-color: #71fd7b;
@@ -88,4 +88,12 @@ button:hover {
     width: 130px;
     height: 160px;
     top: 68%;
+}
+
+.img-costado {
+    position: absolute;
+    top: 101px;
+    left: 80%;
+    width: 120px;
+    height: 180px;
 }
