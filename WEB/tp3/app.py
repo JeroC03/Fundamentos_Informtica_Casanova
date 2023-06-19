@@ -26,3 +26,10 @@ def obtener_producto(numero):
     else:
         return jsonify({"mensaje": "Producto no encontrado"}), 404
     
+@app.route("/productos/<int:numero>", methods=["POST"])
+def eliminar_producto(numero):
+    if numero in productos:
+        del productos[numero]
+        return redirect("/productos")
+    else:
+        return jsonify({"mensaje": "Producto no encontrado"}), 404

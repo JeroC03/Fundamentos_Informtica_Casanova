@@ -12,12 +12,19 @@
             <th>Producto</th>
             <th>Stock</th>
             <th>Precio Unitario</th>
+            <th>Eliminar</th>
         </tr>
         {% for producto in productos %}
         <tr>
             <td><a href="{{ url_for('obtener_producto', numero=producto.numero) }}">{{ producto.Producto }}</a></td>
             <td>{{ producto.Stock }}</td>
             <td>{{ producto.Precio_unitario }}</td>
+            <td>
+                <form action="/productos/{{ producto.numero }}" method="POST" onsubmit="return confirm('¿Estás seguro de eliminar este producto?')">
+                    <input type="hidden" name="_method" value="DELETE">
+                    <button type="submit">Eliminar</button>
+                </form>
+            </td>
         </tr>
         {% endfor %}
     </table>
