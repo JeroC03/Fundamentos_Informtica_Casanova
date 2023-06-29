@@ -58,7 +58,7 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 20px;
 }
 
 .img {
@@ -96,6 +96,7 @@ h2 {
 }
 
 .youtube {
+    margin-top: -70px;
     width: 290px;
     height: 200px;
 }

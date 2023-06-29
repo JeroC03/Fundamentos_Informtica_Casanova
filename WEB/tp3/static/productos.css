@@ -17,3 +17,16 @@ th, td {
 th {
     background-color: #51fdbb;
 }
+
+button {
+    background-color: #96f7d2;
+}
+
+.flecha {
+    width: 50px;
+    height: 5opx;
+}
+
+.flecha:hover {
+    background-color: blue;
+}

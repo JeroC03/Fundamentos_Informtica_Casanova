@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 from markupsafe import escape
-from flask_wtf.csrf import generate_csrf
+# from flask_wtf.csrf import generate_csrf
 
 app = Flask(__name__) 
 
